@@ -484,6 +484,7 @@ a:hover {
 .main-right-form .main-right-form-file img {
   position: absolute;
   margin-left: 30px;
+  height: 100%;
 }
 .main-right-form input {
   margin-left: 25px;
