@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f73bb92-6475-4da4-af2d-324b10f72274" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/1f8927dd766102b43d5968daa09309f3521e0e1b/_lib.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/1f8927dd766102b43d5968daa09309f3521e0e1b/_mixin.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/1f8927dd766102b43d5968daa09309f3521e0e1b/_variables.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/288c5db2bddad7642362712eac13fe9c90ead638/main.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/9a97fc69baee025824ab286abddf7adc54e9f7cb/_resize.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/c4113a20eeb36552a4a520fa522d4c0bce8a3e6c/_aside.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/c4113a20eeb36552a4a520fa522d4c0bce8a3e6c/_banner.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/c4113a20eeb36552a4a520fa522d4c0bce8a3e6c/_borrow-book.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/c4113a20eeb36552a4a520fa522d4c0bce8a3e6c/_footer.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/c4113a20eeb36552a4a520fa522d4c0bce8a3e6c/_form.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/c4113a20eeb36552a4a520fa522d4c0bce8a3e6c/_header.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/c4113a20eeb36552a4a520fa522d4c0bce8a3e6c/_main.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/c4113a20eeb36552a4a520fa522d4c0bce8a3e6c/_manage-table.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/c4113a20eeb36552a4a520fa522d4c0bce8a3e6c/_nav.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/c4113a20eeb36552a4a520fa522d4c0bce8a3e6c/_page-num.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/d3e0bd564decefdf31049af4788fe71798af9c66/_main-right.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/d3e0bd564decefdf31049af4788fe71798af9c66/_main.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/camera-check.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/admin/camera-check.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/camera-check.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/add-book.html" afterPath="$PROJECT_DIR$/dist/add-book.html" />
     </list>
@@ -22,16 +41,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="user-reset.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/html/user-reset.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_banner.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sass/components/_banner.scss">
           <provider selected="true" editor-type-id="text-editor">
@@ -56,17 +65,77 @@
         <entry file="file://$PROJECT_DIR$/src/sass/components/_manage-table.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
-              <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+              <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add-book.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="add-book.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dist/add-book.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="312">
-              <caret line="108" column="62" lean-forward="true" selection-start-line="108" selection-start-column="62" selection-end-line="108" selection-end-column="62" />
+              <caret line="111" column="45" lean-forward="false" selection-start-line="111" selection-start-column="45" selection-end-line="111" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user-modify.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/user-modify.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="124" column="41" lean-forward="false" selection-start-line="124" selection-start-column="41" selection-end-line="124" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user-camera.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/user-camera.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="58" column="34" lean-forward="false" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="camera-check.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/html/camera-check.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="book-now.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/html/book-now.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="11" column="36" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="camera-check.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/html/admin/camera-check.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manage-book.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/html/admin/manage-book.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="60" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="62" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -92,8 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/Desktop/nginx.conf" />
-        <option value="$PROJECT_DIR$/src/sass/layout/_main.scss" />
         <option value="$PROJECT_DIR$/src/sass/components/_header.scss" />
         <option value="$PROJECT_DIR$/src/sass/components/footer.scss" />
         <option value="$PROJECT_DIR$/src/html/public/footer.html" />
@@ -143,6 +210,8 @@
         <option value="$PROJECT_DIR$/dist/book-now.html" />
         <option value="$PROJECT_DIR$/src/sass/components/_manage-table.scss" />
         <option value="$PROJECT_DIR$/dist/add-book.html" />
+        <option value="$PROJECT_DIR$/src/html/camera-check.html" />
+        <option value="$PROJECT_DIR$/src/html/admin/camera-check.html" />
       </list>
     </option>
   </component>
@@ -201,7 +270,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HopeLibrarySystemUE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HopeLibrarySystemUE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HopeLibrarySystemUE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HopeLibrarySystemUE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -301,34 +410,42 @@
       <workItem from="1484055042426" duration="3685000" />
       <workItem from="1484096629193" duration="3801000" />
       <workItem from="1484105617234" duration="3446000" />
-      <workItem from="1484113099537" duration="495000" />
+      <workItem from="1484113099537" duration="3597000" />
     </task>
+    <task id="LOCAL-00001" summary="修正部分form表单错误">
+      <created>1484113621258</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1484113621258</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56057000" />
+    <option name="totallyTimeSpent" value="59159000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23133236" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.103953145" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -356,39 +473,15 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修正部分form表单错误" />
+    <option name="LAST_COMMIT_MESSAGE" value="修正部分form表单错误" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/components/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/components/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/components/_nav.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/components/_page-num.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -521,13 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/book-now.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -673,13 +759,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/admin/manage-book.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="59" column="13" lean-forward="false" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/html/admin/add-book.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -698,7 +777,7 @@
     <entry file="file://$PROJECT_DIR$/src/sass/components/_manage-table.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
-          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -706,7 +785,55 @@
     <entry file="file://$PROJECT_DIR$/dist/add-book.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
-          <caret line="108" column="62" lean-forward="true" selection-start-line="108" selection-start-column="62" selection-end-line="108" selection-end-column="62" />
+          <caret line="111" column="45" lean-forward="false" selection-start-line="111" selection-start-column="45" selection-end-line="111" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/user-modify.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="124" column="41" lean-forward="false" selection-start-line="124" selection-start-column="41" selection-end-line="124" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/book-now.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="36" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/user-camera.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="58" column="34" lean-forward="false" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/camera-check.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/admin/manage-book.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="60" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="62" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/admin/camera-check.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
           <folding />
         </state>
       </provider>
