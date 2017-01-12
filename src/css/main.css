@@ -186,6 +186,10 @@ summary {
   display: inline-block;
 }
 
+.undisplay {
+  display: none;
+}
+
 body {
   font: 14px/1 Helvetica, Arial, sans-serif;
   background: #f0f0f0;
