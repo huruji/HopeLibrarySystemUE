@@ -555,6 +555,10 @@ a:hover {
   border-bottom: 1px solid #e1e1e1;
   padding: 10px 20px;
 }
+.main-right-borrow-list-item-img img {
+  width: 100%;
+  height: 100%;
+}
 .main-right-borrow-list-item-message {
   padding: 10px 20px;
   font-family: "Microsoft Yahei light";
@@ -563,6 +567,11 @@ a:hover {
 .main-right-borrow-list-item-message p {
   color: #a5a5a5;
   padding-bottom: 10px;
+}
+.main-right-borrow-list-item-message h4 {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .main-right-borrow-list-item-message button {
   background: #1c95ea;
