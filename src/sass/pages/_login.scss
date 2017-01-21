@@ -1,0 +1,100 @@
+.login{
+  height:100%;
+  width:100%;
+  body{
+    height:100%;
+    width:100%;
+  }
+  .login-bg{
+    height: 100%;
+    width: 100%;
+    background: url(../img/login-bg.jpg) no-repeat center;
+    background-size: 100%;
+    form{
+      width: 320px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-left: -160px;
+      margin-top: -125px;
+      .form-group{
+        padding:0;
+        margin-bottom:25px;
+      }
+      label{
+        float:left;
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+        border: 1px solid #f0f0f0;
+        border-right: none;
+        height:36px;
+        width:38px;
+        background-color:#fff;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:100%;
+      }
+      input{
+        float:right;
+        width:269px;
+        margin:0;
+        border-top-left-radius:0px;
+        border-bottom-left-radius:0px;
+      }
+      .login-bg-user{
+        background-image:url(../img/login-username.png);
+        background-size:90%;
+      }
+      .login-bg-password{
+        background-image: url(../img/login-password.png);
+      }
+      h1{
+        margin-bottom: 40px;
+        color: #fff;
+        font-size: 32px;
+        text-align: center;
+      }
+      p{
+        text-align: center;
+        a{
+          width: 100px;
+          height: 45px;
+          background-color: #1c95ea;
+          display: inline-block;
+          line-height: 45px;
+          font-size: 20px;
+          color: #fff;
+          text-align: center;
+          border-radius: 5px;
+          &:hover{
+            background-color:#3ea8f3;
+          }
+        }
+      }
+    }
+  }
+  .login-footer{
+    position:absolute;
+    bottom:50px;
+    color:#fff;
+    width:100%;
+    p{
+      text-align: center;
+      a{
+        color:#fff;
+      }
+      span{
+        padding:0 5px;
+        .github{
+          width:14px;
+          height:14px;
+          display:inline-block;
+          background-image:url("../img/github.png");
+          background-repeat:no-repeat;
+          background-position:center;
+          background-size:100%;
+        }
+      }
+    }
+  }
+}

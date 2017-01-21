@@ -281,6 +281,107 @@ a:hover {
   padding-right: 20px;
 }
 
+.login {
+  height: 100%;
+  width: 100%;
+}
+.login body {
+  height: 100%;
+  width: 100%;
+}
+.login .login-bg {
+  height: 100%;
+  width: 100%;
+  background: url(../img/login-bg.jpg) no-repeat center;
+  background-size: 100%;
+}
+.login .login-bg form {
+  width: 320px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -160px;
+  margin-top: -125px;
+}
+.login .login-bg form .form-group {
+  padding: 0;
+  margin-bottom: 25px;
+}
+.login .login-bg form label {
+  float: left;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border: 1px solid #f0f0f0;
+  border-right: none;
+  height: 36px;
+  width: 38px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+.login .login-bg form input {
+  float: right;
+  width: 269px;
+  margin: 0;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.login .login-bg form .login-bg-user {
+  background-image: url(../img/login-username.png);
+  background-size: 90%;
+}
+.login .login-bg form .login-bg-password {
+  background-image: url(../img/login-password.png);
+}
+.login .login-bg form h1 {
+  margin-bottom: 40px;
+  color: #fff;
+  font-size: 32px;
+  text-align: center;
+}
+.login .login-bg form p {
+  text-align: center;
+}
+.login .login-bg form p a {
+  width: 100px;
+  height: 45px;
+  background-color: #1c95ea;
+  display: inline-block;
+  line-height: 45px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+}
+.login .login-bg form p a:hover {
+  background-color: #3ea8f3;
+}
+.login .login-footer {
+  position: absolute;
+  bottom: 50px;
+  color: #fff;
+  width: 100%;
+}
+.login .login-footer p {
+  text-align: center;
+}
+.login .login-footer p a {
+  color: #fff;
+}
+.login .login-footer p span {
+  padding: 0 5px;
+}
+.login .login-footer p span .github {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  background-image: url("../img/github.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
 .header {
   padding: 20px 0;
   height: 22px;
