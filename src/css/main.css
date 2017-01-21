@@ -583,3 +583,16 @@ a:hover {
 .main-right-borrow-list-item-message button[disabled="disabled"] {
   background: #a3a3a3;
 }
+
+.reservation-container {
+  padding: 20px 10px;
+}
+
+p.reservation {
+  line-height: 1.5em;
+  text-indent: 2em;
+}
+
+.reservation-container textarea {
+  margin-top: 10px;
+}
