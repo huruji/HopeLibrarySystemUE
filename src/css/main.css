@@ -322,7 +322,7 @@ a:hover {
 }
 .login .login-bg form input {
   float: right;
-  width: 269px;
+  width: 268px;
   margin: 0;
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
@@ -380,6 +380,8 @@ a:hover {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
+  position: relative;
+  top: 2px;
 }
 
 .header {
