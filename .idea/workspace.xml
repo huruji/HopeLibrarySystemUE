@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4f73bb92-6475-4da4-af2d-324b10f72274" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/main.css" afterPath="$PROJECT_DIR$/dist/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/main.css" afterPath="$PROJECT_DIR$/src/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/pages/_login.scss" afterPath="$PROJECT_DIR$/src/sass/pages/_login.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/public/header.html" afterPath="$PROJECT_DIR$/src/html/public/header.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,26 +26,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="208">
               <caret line="8" column="17" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_resize.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sass/base/_resize.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3380">
-              <caret line="130" column="17" lean-forward="false" selection-start-line="130" selection-start-column="17" selection-end-line="130" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="borrow-book.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist/borrow-book.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1560">
-              <caret line="60" column="45" lean-forward="false" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -103,11 +81,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_login.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_login.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sass/pages/_login.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+            <state relative-caret-position="780">
+              <caret line="30" column="19" lean-forward="false" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sass/components/_header.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/html/public/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -149,7 +147,6 @@
         <option value="$PROJECT_DIR$/src/html/admin/manage-book.html" />
         <option value="$PROJECT_DIR$/src/sass/components/_aside.scss" />
         <option value="$PROJECT_DIR$/src/html/public/banner.html" />
-        <option value="$PROJECT_DIR$/src/html/public/header.html" />
         <option value="$PROJECT_DIR$/src/html/public/nav.html" />
         <option value="$PROJECT_DIR$/src/sass/base/_resize.scss" />
         <option value="$PROJECT_DIR$/src/html/public/add-book.html" />
@@ -194,6 +191,7 @@
         <option value="$PROJECT_DIR$/src/html/login.html" />
         <option value="$PROJECT_DIR$/src/html/login/login.html" />
         <option value="$PROJECT_DIR$/src/sass/pages/_login.scss" />
+        <option value="$PROJECT_DIR$/src/html/public/header.html" />
       </list>
     </option>
   </component>
@@ -206,9 +204,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="676" />
-    <option name="width" value="697" />
-    <option name="height" value="745" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1378" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -225,6 +224,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -250,8 +251,22 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
+              <option name="myItemId" value="HopeLibrarySystemUE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HopeLibrarySystemUE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -269,54 +284,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
+              <option name="myItemId" value="html" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HopeLibrarySystemUE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HopeLibrarySystemUE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HopeLibrarySystemUE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HopeLibrarySystemUE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -420,7 +397,9 @@
       <workItem from="1484985691696" duration="2265000" />
       <workItem from="1485008676895" duration="7517000" />
       <workItem from="1485100000192" duration="61000" />
-      <workItem from="1485783708452" duration="147000" />
+      <workItem from="1485783708452" duration="759000" />
+      <workItem from="1485946830053" duration="659000" />
+      <workItem from="1486006478883" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="修正部分form表单错误">
       <created>1484113621258</created>
@@ -534,17 +513,24 @@
       <option name="project" value="LOCAL" />
       <updated>1485017716010</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="登录页样式调整:bug:&#10;">
+      <created>1485783865842</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1485783865842</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86126000" />
+    <option name="totallyTimeSpent" value="87408000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="676" y="0" width="697" height="745" extended-state="0" />
+    <frame x="-8" y="-8" width="1378" height="754" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28781205" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2870778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -609,20 +595,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/components/_main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/layout/_main-right.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
@@ -887,7 +859,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3380">
           <caret line="130" column="17" lean-forward="false" selection-start-line="130" selection-start-column="17" selection-end-line="130" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -895,7 +866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1560">
           <caret line="60" column="45" lean-forward="false" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -958,8 +928,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/pages/_login.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        <state relative-caret-position="780">
+          <caret line="30" column="19" lean-forward="false" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/components/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/public/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
           <folding />
         </state>
       </provider>
