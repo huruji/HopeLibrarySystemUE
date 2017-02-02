@@ -622,6 +622,7 @@ a:hover {
   color: #fff;
   width: 94px;
   height: 40px;
+  cursor: pointer;
 }
 .main-right-form-button-cancel {
   float: left;

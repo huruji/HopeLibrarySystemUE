@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f73bb92-6475-4da4-af2d-324b10f72274" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/c4113a20eeb36552a4a520fa522d4c0bce8a3e6c/_form.scssc" afterPath="$PROJECT_DIR$/.sass-cache/c4113a20eeb36552a4a520fa522d4c0bce8a3e6c/_form.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/public/header.html" afterPath="$PROJECT_DIR$/src/html/public/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/add-book.html" afterPath="$PROJECT_DIR$/dist/add-book.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/add-user.html" afterPath="$PROJECT_DIR$/dist/add-user.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/book-now.html" afterPath="$PROJECT_DIR$/dist/book-now.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/borrow-book.html" afterPath="$PROJECT_DIR$/dist/borrow-book.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/camera-check.html" afterPath="$PROJECT_DIR$/dist/camera-check.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/camera-modify.html" afterPath="$PROJECT_DIR$/dist/camera-modify.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/main.css" afterPath="$PROJECT_DIR$/dist/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/user-book.html" afterPath="$PROJECT_DIR$/dist/user-book.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/user-camera.html" afterPath="$PROJECT_DIR$/dist/user-camera.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/user-modify.html" afterPath="$PROJECT_DIR$/dist/user-modify.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/user-reset.html" afterPath="$PROJECT_DIR$/dist/user-reset.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/main.css" afterPath="$PROJECT_DIR$/src/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/components/_form.scss" afterPath="$PROJECT_DIR$/src/sass/components/_form.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -101,21 +115,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/html/public/header.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="234">
-              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+              <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist/login.html">
+      <file leaf-file-name="_form.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sass/components/_form.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="26">
-              <caret line="1" column="29" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="29" />
+              <caret line="39" column="3" lean-forward="true" selection-start-line="39" selection-start-column="3" selection-end-line="45" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -178,7 +192,6 @@
         <option value="$PROJECT_DIR$/src/html/camera-modify.html" />
         <option value="$PROJECT_DIR$/src/html/admin/camera-check.html" />
         <option value="$PROJECT_DIR$/src/html/admin/modify-camera.html" />
-        <option value="$PROJECT_DIR$/src/sass/components/_form.scss" />
         <option value="$PROJECT_DIR$/src/html/admin/add-book.html" />
         <option value="$PROJECT_DIR$/dist/index.html" />
         <option value="$PROJECT_DIR$/src/html/admin/manage-user.html" />
@@ -192,6 +205,7 @@
         <option value="$PROJECT_DIR$/src/html/login/login.html" />
         <option value="$PROJECT_DIR$/src/sass/pages/_login.scss" />
         <option value="$PROJECT_DIR$/src/html/public/header.html" />
+        <option value="$PROJECT_DIR$/src/sass/components/_form.scss" />
       </list>
     </option>
   </component>
@@ -251,6 +265,46 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HopeLibrarySystemUE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HopeLibrarySystemUE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HopeLibrarySystemUE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HopeLibrarySystemUE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -284,11 +338,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -399,7 +449,7 @@
       <workItem from="1485100000192" duration="61000" />
       <workItem from="1485783708452" duration="759000" />
       <workItem from="1485946830053" duration="659000" />
-      <workItem from="1486006478883" duration="11000" />
+      <workItem from="1486006478883" duration="247000" />
     </task>
     <task id="LOCAL-00001" summary="修正部分form表单错误">
       <created>1484113621258</created>
@@ -520,11 +570,18 @@
       <option name="project" value="LOCAL" />
       <updated>1485783865842</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="登出添加链接:bug:&#10;">
+      <created>1486006510931</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1486006510931</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87408000" />
+    <option name="totallyTimeSpent" value="87644000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="754" extended-state="0" />
@@ -588,7 +645,8 @@
     <MESSAGE value="登录页架构完成:rocket:&#10;" />
     <MESSAGE value="登录页重构完成:rocket:&#10;" />
     <MESSAGE value="登录页样式调整:bug:&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="登录页样式调整:bug:&#10;" />
+    <MESSAGE value="登出添加链接:bug:&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="登出添加链接:bug:&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -792,13 +850,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/components/_form.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/html/add-book.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -945,7 +996,15 @@
     <entry file="file://$PROJECT_DIR$/src/html/public/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/components/_form.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="39" column="3" lean-forward="true" selection-start-line="39" selection-start-column="3" selection-end-line="45" selection-end-column="14" />
           <folding />
         </state>
       </provider>

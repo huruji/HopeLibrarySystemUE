@@ -52,6 +52,7 @@
         color:$global-active-color;
         width:94px;
         height:40px;
+        @include pointer;
       }
     }
     &-cancel{
