@@ -25,4 +25,8 @@
       color:$global-link-color;
     }
   }
+  span.disable{
+    @include notAllow;
+    color:#999999;
+  }
 }

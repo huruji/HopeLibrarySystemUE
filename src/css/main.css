@@ -164,6 +164,9 @@ summary {
   margin-left: 5%;
   background: #fff;
 }
+.form-group input[disabled="disabled"] {
+  cursor: not-allowed;
+}
 
 .radio {
   display: inline-block;
@@ -536,6 +539,10 @@ a:hover {
 }
 .main-right-table-manage span:hover {
   color: #1c95ea;
+}
+.main-right-table-manage span.disable {
+  cursor: not-allowed;
+  color: #999999;
 }
 
 .main-right-page-num {

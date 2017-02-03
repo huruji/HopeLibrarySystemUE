@@ -15,6 +15,9 @@
     margin-left:5%;
     background:#fff;
   }
+  input[disabled="disabled"] {
+    cursor: not-allowed;
+  }
 }
 .radio{
   display:inline-block;
