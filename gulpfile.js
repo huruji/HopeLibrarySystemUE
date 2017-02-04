@@ -6,6 +6,7 @@ const runSequence = require('run-sequence');
 const cleanCSS = require('gulp-clean-css');
 const include = require('gulp-include');
 const del = require('del');
+const autoprefixer = require('gulp-autoprefixer');
 
 gulp.task('default', function() {
     return runSequence(['clean'],['build'],['server','watch']);
@@ -55,6 +56,10 @@ gulp.task('css', function() {
             this.emit('end');
         })
         .pipe(cleanCSS())
+        .pipe(autoprefixer({
+            browsers: ['last 5 versions'],
+            cascade: false
+        }))
         .pipe(gulp.dest('./dist/css'));
 });
 
