@@ -17,6 +17,7 @@
     "gulp-compass": "^2.1.0",
     "gulp-concat": "^2.6.1",
     "gulp-include": "^2.3.1",
+    "gulp-uglify": "^2.0.1",
     "run-sequence": "^1.2.2"
   }
 }

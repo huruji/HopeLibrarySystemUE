@@ -7,6 +7,7 @@ const cleanCSS = require('gulp-clean-css');
 const include = require('gulp-include');
 const del = require('del');
 const autoprefixer = require('gulp-autoprefixer');
+const uglify = require('gulp-uglify');
 
 gulp.task('default', function() {
     return runSequence(['clean'],['build'],['server','watch']);
@@ -17,7 +18,7 @@ gulp.task('clean', function() {
     })
 })
 gulp.task('build', function () {
-    return runSequence(['css', 'img', 'html', 'js'], function() {
+    return runSequence(['css', 'img', 'html', 'concat-js','uglify-js'], function() {
         console.log('task build is completed!');
     });
 })
@@ -27,12 +28,16 @@ gulp.task('img', function() {
         .pipe(gulp.dest('./dist/img/'))
 });
 
-gulp.task('js', function() {
-    return gulp.src('./src/**/*.js')
+gulp.task('concat-js', function() {
+    return gulp.src('./src/js/*.js')
         .pipe(concat('main.js'))
         .pipe(gulp.dest('./dist/js/'));
 });
-
+gulp.task('uglify-js', function() {
+    return gulp.src(['./src/lib/**/*.js','!./src/lib/**/*.min.js'])
+    .pipe(uglify())
+    .pipe(gulp.dest('./dist/js/'));
+});
 gulp.task('server', function() {
     browserSync.init({
         server:'./dist/',
