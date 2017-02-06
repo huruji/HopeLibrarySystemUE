@@ -60,9 +60,12 @@
 
 @mixin ie-bg-rgba($color,$iecolor) {
   @if $iecolor {
-    background: $iecolor;
+    background-color: $iecolor;
+    background-color:$color;
   }
-  background:$color;
+  @else {
+    background-color:$color;
+  }
 }
 
 

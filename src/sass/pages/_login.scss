@@ -1,3 +1,8 @@
+$login-input-width: 310px;
+$login-input-padding: 6px 5px;
+$login-input-height: 34px;
+$login-bg-color:#40CD6C;
+$login-btn-hover:#44e476;
 .login{
   height:100%;
   width:100%;
@@ -8,67 +13,51 @@
   .login-bg{
     height: 100%;
     width: 100%;
-    background: url(../img/login-bg.jpg) no-repeat center;
+    @include bg-center("../img/login-bg.jpg");
     background-size: 100%;
     form{
-      width: 320px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      margin-left: -160px;
-      margin-top: -125px;
+      width: 416px;
+      height: 226px;
+      padding: 45px 0px;
+      @include p-hv-center;
+      @include ie-bg-rgba(rgba(255,255,255,0.8),#ffffff);
       .form-group{
-        padding:0;
-        margin-bottom:25px;
-      }
-      label{
-        float:left;
-        border-top-left-radius: 3px;
-        border-bottom-left-radius: 3px;
-        border: 1px solid #f0f0f0;
-        border-right: none;
-        height:36px;
-        width:38px;
-        background-color:#fff;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size:100%;
+        height:48px;
       }
       input{
-        float:right;
-        width:268px;
-        margin:0;
-        border-top-left-radius:0px;
-        border-bottom-left-radius:0px;
-      }
-      .login-bg-user{
-        background-image:url(../img/login-username.png);
-        background-size:90%;
-      }
-      .login-bg-password{
-        background-image: url(../img/login-password.png);
+        width:$login-input-width;
+        height:$login-input-height;
+        border: 1px solid #ddd;
+        background:#fafafa;
+        @include b-radius(5px);
+        margin: 0 auto;
+        display:block;
       }
       h1{
-        margin-bottom: 40px;
-        color: #fff;
-        font-size: 32px;
+        margin-bottom: 30px;
+        color: $login-bg-color;
+        font-size: 30px;
+        font-weight:bold;
         text-align: center;
+        font-family:$global-zh-title-font-family;
       }
-      p{
+      .login-bg-btn{
         text-align: center;
+        width:$login-input-width;
+        height:$login-input-height;
+        padding:$login-input-padding;
+        background-color:$login-bg-color;
+        margin: 5px auto;
+        @include b-radius(5px);
+        &:hover{
+          background: $login-btn-hover;
+        }
         a{
-          width: 100px;
-          height: 45px;
-          background-color: #1c95ea;
-          display: inline-block;
-          line-height: 45px;
+          display: block;
+          @include l-v-center($login-input-height);
           font-size: 20px;
           color: #fff;
           text-align: center;
-          border-radius: 5px;
-          &:hover{
-            background-color:#3ea8f3;
-          }
         }
       }
     }

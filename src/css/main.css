@@ -295,70 +295,63 @@ a:hover {
 .login .login-bg {
   height: 100%;
   width: 100%;
-  background: url(../img/login-bg.jpg) no-repeat center;
+  background-image: url("../img/login-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: 100%;
 }
 .login .login-bg form {
-  width: 320px;
+  width: 416px;
+  height: 226px;
+  padding: 45px 0px;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-left: -160px;
-  margin-top: -125px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 .login .login-bg form .form-group {
-  padding: 0;
-  margin-bottom: 25px;
-}
-.login .login-bg form label {
-  float: left;
-  border-top-left-radius: 3px;
-  border-bottom-left-radius: 3px;
-  border: 1px solid #f0f0f0;
-  border-right: none;
-  height: 36px;
-  width: 38px;
-  background-color: #fff;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
+  height: 48px;
 }
 .login .login-bg form input {
-  float: right;
-  width: 268px;
-  margin: 0;
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
-}
-.login .login-bg form .login-bg-user {
-  background-image: url(../img/login-username.png);
-  background-size: 90%;
-}
-.login .login-bg form .login-bg-password {
-  background-image: url(../img/login-password.png);
+  width: 310px;
+  height: 34px;
+  border: 1px solid #ddd;
+  background: #fafafa;
+  border-radius: 5px;
+  margin: 0 auto;
+  display: block;
 }
 .login .login-bg form h1 {
-  margin-bottom: 40px;
-  color: #fff;
-  font-size: 32px;
+  margin-bottom: 30px;
+  color: #40CD6C;
+  font-size: 30px;
+  font-weight: bold;
   text-align: center;
+  font-family: "Microsoft Yahei";
 }
-.login .login-bg form p {
+.login .login-bg form .login-bg-btn {
   text-align: center;
+  width: 310px;
+  height: 34px;
+  padding: 6px 5px;
+  background-color: #40CD6C;
+  margin: 5px auto;
+  border-radius: 5px;
 }
-.login .login-bg form p a {
-  width: 100px;
-  height: 45px;
-  background-color: #1c95ea;
-  display: inline-block;
-  line-height: 45px;
+.login .login-bg form .login-bg-btn:hover {
+  background: #44e476;
+}
+.login .login-bg form .login-bg-btn a {
+  display: block;
+  line-height: 34px;
+  height: 34px;
   font-size: 20px;
   color: #fff;
   text-align: center;
-  border-radius: 5px;
-}
-.login .login-bg form p a:hover {
-  background-color: #3ea8f3;
 }
 .login .login-footer {
   position: absolute;

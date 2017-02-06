@@ -1,0 +1,1 @@
+!function(){function e(){var e=document.getElementsByClassName("main-right-form")[0],t=[].slice.call(e.getElementsByClassName("form-group"));t.forEach(function(e){e.getElementsByTagName("input")[0].value=""})}function t(e,t,n){return window.attachEvent?e.attachEvent("on"+t,n):e.addEventListener(t,n,!1)}var n=document.getElementById("js-form-reset");t(n,"click",e)}();
