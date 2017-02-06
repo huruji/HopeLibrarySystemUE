@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f73bb92-6475-4da4-af2d-324b10f72274" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/c4113a20eeb36552a4a520fa522d4c0bce8a3e6c/_reservation_layout.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/ca36965377d01be61513fb78acec985c5bc6e942/_login.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/github.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/login-bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/login-password.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/img/login-username.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/github.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/login-bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/login-password.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/login-username.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/js/js/form-reset.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/js/form-reset.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/1f8927dd766102b43d5968daa09309f3521e0e1b/_mixin.scssc" afterPath="$PROJECT_DIR$/.sass-cache/1f8927dd766102b43d5968daa09309f3521e0e1b/_mixin.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/main.css" afterPath="$PROJECT_DIR$/dist/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/main.css" afterPath="$PROJECT_DIR$/src/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/login/login.html" afterPath="$PROJECT_DIR$/src/html/login/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/helpers/_mixin.scss" afterPath="$PROJECT_DIR$/src/sass/helpers/_mixin.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/pages/_login.scss" afterPath="$PROJECT_DIR$/src/sass/pages/_login.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -82,8 +63,8 @@
       <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/html/login/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            <state relative-caret-position="312">
+              <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -507,7 +488,7 @@
       <workItem from="1486006478883" duration="349000" />
       <workItem from="1486109732452" duration="866000" />
       <workItem from="1486202320363" duration="2708000" />
-      <workItem from="1486389673051" duration="5160000" />
+      <workItem from="1486389673051" duration="5786000" />
     </task>
     <task id="LOCAL-00001" summary="修正部分form表单错误">
       <created>1484113621258</created>
@@ -670,11 +651,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486390867592</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="新版登录表单:art:&#10;">
+      <created>1486394874075</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1486394874075</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96480000" />
+    <option name="totallyTimeSpent" value="97106000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -744,7 +732,8 @@
     <MESSAGE value="添加css文件自动添加前缀:rocket:&#10;" />
     <MESSAGE value="添加js文件压缩功能:rocket:&#10;" />
     <MESSAGE value="根据亮哥的建议修改:bug:&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="根据亮哥的建议修改:bug:&#10;" />
+    <MESSAGE value="新版登录表单:art:&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="新版登录表单:art:&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1110,8 +1099,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/html/login/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        <state relative-caret-position="312">
+          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
           <folding />
         </state>
       </provider>
