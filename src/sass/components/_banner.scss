@@ -2,6 +2,7 @@
   height:94px;
   padding:23px 0;
   @include bg-center("../img/banner.png");
+
   &-avatar{
     @include float-left;
     width:90px;

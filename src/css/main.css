@@ -396,9 +396,11 @@ a:hover {
 .header-title {
   float: left;
   font-size: 22px;
+  font-family: "Microsoft Yahei";
 }
 .header-right {
   float: right;
+  font-family: "Microsoft Yahei";
 }
 .header-right span {
   line-height: 22px;
@@ -427,6 +429,7 @@ a:hover {
   padding: 23px 0;
   background-image: url("../img/banner.png");
   background-position: center;
+  background-repeat: no-repeat;
 }
 .banner-avatar {
   float: left;
@@ -630,6 +633,7 @@ a:hover {
   width: 94px;
   height: 40px;
   cursor: pointer;
+  font-size: 16px;
 }
 .main-right-form-button-cancel {
   float: left;

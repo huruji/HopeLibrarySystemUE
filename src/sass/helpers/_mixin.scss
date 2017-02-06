@@ -33,6 +33,7 @@
 @mixin bg-center ($imgurl){
   background-image:url($imgurl);
   background-position:center;
+  background-repeat: no-repeat;
 }
 
 @mixin text-center{
