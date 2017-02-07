@@ -1,6 +1,8 @@
 .main-right-table{
   margin-top:$main-table-margin-top;
   background:$main-bgcolor;
+  border-right:$aside-border;
+  border-left:$aside-border;
   table{
     tr{
       border-top: $aside-border;

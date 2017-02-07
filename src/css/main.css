@@ -193,6 +193,10 @@ summary {
   display: none;
 }
 
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #f0f0f0 inset !important;
+}
+
 body {
   font: 14px/1 Helvetica, Arial, sans-serif;
   background: #f0f0f0;
@@ -311,20 +315,24 @@ a:hover {
   right: 0;
   bottom: 0;
   margin: auto;
+  border-radius: 6px;
   background-color: #ffffff;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: white;
 }
 .login .login-bg form .form-group {
   height: 48px;
 }
 .login .login-bg form input {
-  width: 310px;
+  width: 300px;
   height: 34px;
   border: 1px solid #ddd;
   background: #fafafa;
   border-radius: 5px;
   margin: 0 auto;
   display: block;
+  padding: 6px 10px;
+  color: #838383;
+  font-size: 16px;
 }
 .login .login-bg form h1 {
   margin-bottom: 30px;
@@ -336,9 +344,9 @@ a:hover {
 }
 .login .login-bg form .login-bg-btn {
   text-align: center;
-  width: 310px;
+  width: 300px;
   height: 34px;
-  padding: 6px 5px;
+  padding: 6px 10px;
   background-color: #40CD6C;
   margin: 5px auto;
   border-radius: 5px;
@@ -469,9 +477,11 @@ a:hover {
 }
 .aside-list-item {
   height: 58px;
-  border-bottom: 1px solid #e1e1e1;
   border-top: 1px solid #e1e1e1;
   text-align: center;
+}
+.aside-list-item:first-child {
+  border-top: none;
 }
 .aside-list-item a {
   display: block;
@@ -515,6 +525,8 @@ a:hover {
 .main-right-table {
   margin-top: 20px;
   background: #fff;
+  border-right: 1px solid #e1e1e1;
+  border-left: 1px solid #e1e1e1;
 }
 .main-right-table table tr {
   border-top: 1px solid #e1e1e1;
@@ -576,6 +588,7 @@ a:hover {
   display: block;
   font-size: 14px;
   padding: 40px 0 0;
+  border: 1px solid #e1e1e1;
 }
 .main-right-form .form-group {
   padding-bottom: 20px;

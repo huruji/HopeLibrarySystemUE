@@ -1,5 +1,5 @@
-$login-input-width: 310px;
-$login-input-padding: 6px 5px;
+$login-input-width: 300px;
+$login-input-padding: 6px 10px;
 $login-input-height: 34px;
 $login-bg-color:#40CD6C;
 $login-btn-hover:#44e476;
@@ -20,7 +20,8 @@ $login-btn-hover:#44e476;
       height: 226px;
       padding: 45px 0px;
       @include p-hv-center;
-      @include ie-bg-rgba(rgba(255,255,255,0.8),#ffffff);
+      @include b-radius(6px);
+      @include ie-bg-rgba(rgba(255,255,255,1),#ffffff);
       .form-group{
         height:48px;
       }
@@ -32,6 +33,9 @@ $login-btn-hover:#44e476;
         @include b-radius(5px);
         margin: 0 auto;
         display:block;
+        padding:$login-input-padding;
+        color:#838383;
+        font-size:16px;
       }
       h1{
         margin-bottom: 30px;

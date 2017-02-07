@@ -8,9 +8,11 @@
   &-list{
     &-item{
       height:$aside-item-height;
-      border-bottom:$aside-border;
       border-top:$aside-border;
       @include text-center;
+      &:first-child{
+        border-top:none;
+      }
       a{
         display:block;
         padding:20.5px 0;
