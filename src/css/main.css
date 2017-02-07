@@ -471,7 +471,7 @@ a:hover {
   border: 1px solid #e1e1e1;
   width: 223px;
   background: #fff;
-  font-size: 18px;
+  font-size: 16px;
   font-family: "Microsoft Yahei light";
   float: left;
 }
@@ -491,8 +491,10 @@ a:hover {
   background: #1c95ea;
   color: #fff;
 }
-.aside-list .aside-list-item-active a {
+.aside-list .aside-list-item-active {
   background: #1c95ea;
+}
+.aside-list .aside-list-item-active a {
   color: #fff;
 }
 
