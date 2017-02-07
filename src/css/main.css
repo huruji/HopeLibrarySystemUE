@@ -196,6 +196,7 @@ summary {
 body {
   font: 14px/1 Helvetica, Arial, sans-serif;
   background: #f0f0f0;
+  font-family: Microsoft Yahei, Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -619,6 +620,7 @@ a:hover {
   float: left;
   margin-right: 20px;
   margin-left: 120px;
+  font-family: "Microsoft Yahei";
 }
 .main-right-form-button-confirm input {
   background: #1c95ea;
@@ -636,6 +638,7 @@ a:hover {
   text-align: center;
   cursor: pointer;
   background: #dedede;
+  font-family: "Microsoft Yahei";
 }
 .main-right-form-button-cancel:hover {
   background: #1c95ea;

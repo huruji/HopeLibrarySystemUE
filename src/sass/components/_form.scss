@@ -47,6 +47,7 @@
       @include float-left;
       margin-right:20px;
       margin-left:120px;
+      font-family: $global-zh-title-font-family;
       input{
         background:$global-active-bgcolor;
         color:$global-active-color;
@@ -63,6 +64,7 @@
       @include text-center;
       @include pointer;
       background:#dedede;
+      font-family: $global-zh-title-font-family;
       &:hover{
         background:$global-active-bgcolor;
         color:$global-active-color;
