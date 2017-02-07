@@ -170,7 +170,7 @@ summary {
 
 .radio {
   display: inline-block;
-  margin-left: 5%;
+  margin-left: 25px;
 }
 .radio .radio-inline {
   padding-left: 20px;
@@ -605,7 +605,7 @@ a:hover {
 .main-right-form input[type=radio] {
   margin-left: 5%;
   box-shadow: none;
-  top: 8px;
+  top: 6px;
 }
 .main-right-form input[type=radio]:focus {
   outline: none;

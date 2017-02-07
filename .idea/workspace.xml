@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f73bb92-6475-4da4-af2d-324b10f72274" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/1f8927dd766102b43d5968daa09309f3521e0e1b/_variables.scssc" afterPath="$PROJECT_DIR$/.sass-cache/1f8927dd766102b43d5968daa09309f3521e0e1b/_variables.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/1f8927dd766102b43d5968daa09309f3521e0e1b/_lib.scssc" afterPath="$PROJECT_DIR$/.sass-cache/1f8927dd766102b43d5968daa09309f3521e0e1b/_lib.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/c4113a20eeb36552a4a520fa522d4c0bce8a3e6c/_form.scssc" afterPath="$PROJECT_DIR$/.sass-cache/c4113a20eeb36552a4a520fa522d4c0bce8a3e6c/_form.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/d3e0bd564decefdf31049af4788fe71798af9c66/_main.scssc" afterPath="$PROJECT_DIR$/.sass-cache/d3e0bd564decefdf31049af4788fe71798af9c66/_main.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/main.css" afterPath="$PROJECT_DIR$/dist/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/main.css" afterPath="$PROJECT_DIR$/src/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/components/_form.scss" afterPath="$PROJECT_DIR$/src/sass/components/_form.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/helpers/_variables.scss" afterPath="$PROJECT_DIR$/src/sass/helpers/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/layout/_main.scss" afterPath="$PROJECT_DIR$/src/sass/layout/_main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/helpers/_lib.scss" afterPath="$PROJECT_DIR$/src/sass/helpers/_lib.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -98,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_main-right.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sass/layout/_main-right.scss">
+      <file leaf-file-name="_lib.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sass/helpers/_lib.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-278">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="-52">
+              <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -111,8 +109,8 @@
       <file leaf-file-name="_form.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sass/components/_form.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            <state relative-caret-position="216">
+              <caret line="36" column="12" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -185,7 +183,6 @@
         <option value="$PROJECT_DIR$/dist/login.html" />
         <option value="$PROJECT_DIR$/src/html/login.html" />
         <option value="$PROJECT_DIR$/src/html/public/header.html" />
-        <option value="$PROJECT_DIR$/src/sass/helpers/_lib.scss" />
         <option value="$PROJECT_DIR$/src/html/public/footer.html" />
         <option value="$PROJECT_DIR$/src/sass/components/_header.scss" />
         <option value="$PROJECT_DIR$/src/sass/pages/_login.scss" />
@@ -199,6 +196,7 @@
         <option value="$PROJECT_DIR$/src/sass/components/_banner.scss" />
         <option value="$PROJECT_DIR$/src/sass/components/_aside.scss" />
         <option value="$PROJECT_DIR$/src/sass/layout/_main.scss" />
+        <option value="$PROJECT_DIR$/src/sass/helpers/_lib.scss" />
         <option value="$PROJECT_DIR$/src/sass/components/_form.scss" />
       </list>
     </option>
@@ -502,7 +500,7 @@
       <workItem from="1486109732452" duration="866000" />
       <workItem from="1486202320363" duration="2708000" />
       <workItem from="1486389673051" duration="8336000" />
-      <workItem from="1486466509060" duration="906000" />
+      <workItem from="1486466509060" duration="1106000" />
     </task>
     <task id="LOCAL-00001" summary="修正部分form表单错误">
       <created>1484113621258</created>
@@ -679,11 +677,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486395769236</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="全局字体修正:art:&#10;">
+      <created>1486467437927</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1486467437927</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100562000" />
+    <option name="totallyTimeSpent" value="100762000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="754" extended-state="0" />
@@ -754,7 +759,8 @@
     <MESSAGE value="添加js文件压缩功能:rocket:&#10;" />
     <MESSAGE value="根据亮哥的建议修改:bug:&#10;" />
     <MESSAGE value="新版登录表单:art:&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="新版登录表单:art:&#10;" />
+    <MESSAGE value="全局字体修正:art:&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="全局字体修正:art:&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -997,14 +1003,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/helpers/_lib.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-330">
-          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/helpers/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -1125,10 +1123,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/helpers/_lib.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52">
+          <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/components/_form.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="216">
+          <caret line="36" column="12" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
           <folding />
         </state>
       </provider>
