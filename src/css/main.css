@@ -613,7 +613,7 @@ a:hover {
 .main-right-form input {
   margin-left: 25px;
   background: #fafafa;
-  box-shadow: 0px 0px 2px #ccc inset;
+  box-shadow: 0px 0px 1px #ccc inset;
 }
 .main-right-form input[type=radio] {
   margin-left: 5%;
@@ -698,14 +698,22 @@ a:hover {
   overflow: hidden;
 }
 .main-right-borrow-list-item-message button {
-  background: #1c95ea;
-  color: #fff;
+  background: #f5f5f5;
+  color: #333;
+  border: 1px solid #e1e1e1;
   height: 32px;
-  width: 78px;
+  width: 100%;
   cursor: pointer;
 }
 .main-right-borrow-list-item-message button[disabled="disabled"] {
   background: #a3a3a3;
+  cursor: not-allowed;
+}
+.main-right-borrow-list-item-message button[disabled="disabled"]:hover {
+  background: #a3a3a3;
+}
+.main-right-borrow-list-item-message button:hover {
+  background: #fafafa;
 }
 
 .reservation-container {
