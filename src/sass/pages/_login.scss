@@ -25,6 +25,24 @@ $login-btn-hover:#44e476;
       .form-group{
         height:48px;
       }
+      .login-bg-error{
+        margin-left: 62px;
+        font-size: 12px;
+        color: red;
+        &:before,&:after{
+          width: 2px;
+          height: 12px;
+          background: red;
+          transform: rotate(-45deg);
+          content: '';
+          display: inline-block;
+          position: absolute;
+          left: 52px;
+        }
+        &:after{
+          transform: rotate(45deg);
+        }
+      }
       input{
         width:$login-input-width;
         height:$login-input-height;
