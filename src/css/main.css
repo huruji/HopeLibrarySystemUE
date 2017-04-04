@@ -574,6 +574,64 @@ a:hover {
   color: #999999;
 }
 
+.main-right-charts {
+  margin-top: 20px;
+  background: #fff;
+  padding: 20px;
+}
+.main-right-charts-content {
+  width: 80%;
+  height: 400px;
+  margin: 0 auto;
+}
+.main-right-charts-btns {
+  height: 70px;
+}
+.main-right-charts-btns-type {
+  width: 40%;
+  height: 30px;
+  float: left;
+  font-size: 0;
+}
+.main-right-charts-btns-type span {
+  width: 50px;
+  border: 1px solid #777;
+  display: inline-block;
+  text-align: center;
+  height: 20px;
+  line-height: 20px;
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.main-right-charts-btns-type span:last-child {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.main-right-charts-btns-type span:first-child {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.main-right-charts-btns-type span.active {
+  background: #1c95ea;
+  color: #fff;
+}
+.main-right-charts-btns-times {
+  width: 40%;
+  height: 30px;
+  float: right;
+  font-size: 0;
+}
+.main-right-charts-btns-times select {
+  font-size: 14px;
+  display: block;
+  float: right;
+  height: 40px;
+  border: 1px solid #777;
+  border-radius: 5px;
+  width: 70px;
+}
+
 .main-right-page-num {
   margin-top: 20px;
   text-align: center;
